@@ -1,0 +1,30 @@
+C:\Users\maxim\source\repos\Задания по WPF\Задания по WPF\bin\Debug\Задания по WPF.exe.config
+C:\Users\maxim\source\repos\Задания по WPF\Задания по WPF\bin\Debug\Задания по WPF.exe
+C:\Users\maxim\source\repos\Задания по WPF\Задания по WPF\bin\Debug\Задания по WPF.pdb
+C:\Users\maxim\source\repos\Задания по WPF\Задания по WPF\obj\Debug\Задания по WPF.csprojAssemblyReference.cache
+C:\Users\maxim\source\repos\Задания по WPF\Задания по WPF\obj\Debug\MainWindow.g.cs
+C:\Users\maxim\source\repos\Задания по WPF\Задания по WPF\obj\Debug\App.g.cs
+C:\Users\maxim\source\repos\Задания по WPF\Задания по WPF\obj\Debug\Задания по WPF_MarkupCompile.cache
+C:\Users\maxim\source\repos\Задания по WPF\Задания по WPF\obj\Debug\Задания по WPF_MarkupCompile.lref
+C:\Users\maxim\source\repos\Задания по WPF\Задания по WPF\obj\Debug\MainWindow.baml
+C:\Users\maxim\source\repos\Задания по WPF\Задания по WPF\obj\Debug\Задания по WPF.g.resources
+C:\Users\maxim\source\repos\Задания по WPF\Задания по WPF\obj\Debug\Задания_по_WPF.Properties.Resources.resources
+C:\Users\maxim\source\repos\Задания по WPF\Задания по WPF\obj\Debug\Задания по WPF.csproj.GenerateResource.cache
+C:\Users\maxim\source\repos\Задания по WPF\Задания по WPF\obj\Debug\Задания по WPF.csproj.CoreCompileInputs.cache
+C:\Users\maxim\source\repos\Задания по WPF\Задания по WPF\obj\Debug\Задания по WPF.exe
+C:\Users\maxim\source\repos\Задания по WPF\Задания по WPF\obj\Debug\Задания по WPF.pdb
+C:\Users\maxim\source\repos\Задания по WPF\Задания по WPF\obj\Debug\Pages\StartPage.g.cs
+C:\Users\maxim\source\repos\Задания по WPF\Задания по WPF\obj\Debug\Pages\StudentsPage.g.cs
+C:\Users\maxim\source\repos\Задания по WPF\Задания по WPF\obj\Debug\Pages\StartPage.baml
+C:\Users\maxim\source\repos\Задания по WPF\Задания по WPF\obj\Debug\Pages\StudentsPage.baml
+C:\Users\maxim\source\repos\Задания по WPF\Задания по WPF\bin\Debug\EntityFramework.dll
+C:\Users\maxim\source\repos\Задания по WPF\Задания по WPF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\maxim\source\repos\Задания по WPF\Задания по WPF\bin\Debug\EntityFramework.xml
+C:\Users\maxim\source\repos\Задания по WPF\Задания по WPF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\maxim\source\repos\Задания по WPF\Задания по WPF\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\maxim\source\repos\Задания по WPF\Задания по WPF\obj\Debug\Pages\GradesPage.g.cs
+C:\Users\maxim\source\repos\Задания по WPF\Задания по WPF\obj\Debug\Задания по WPF_Content.g.cs
+C:\Users\maxim\source\repos\Задания по WPF\Задания по WPF\obj\Debug\Pages\GradesPage.baml
+C:\Users\maxim\source\repos\Задания по WPF\Задания по WPF\obj\Debug\Задания по WPF.csproj.CopyComplete
+C:\Users\maxim\source\repos\Задания по WPF\Задания по WPF\obj\Debug\Pages\AddOrEditUserPage.g.cs
+C:\Users\maxim\source\repos\Задания по WPF\Задания по WPF\obj\Debug\Pages\AddOrEditUserPage.baml

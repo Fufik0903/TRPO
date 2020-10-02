@@ -1,0 +1,15 @@
+C:\Users\maxim\source\repos\Network 3\Network 3\obj\Debug\Network 3.csprojAssemblyReference.cache
+C:\Users\maxim\source\repos\Network 3\Network 3\obj\Debug\MainWindow.g.cs
+C:\Users\maxim\source\repos\Network 3\Network 3\obj\Debug\App.g.cs
+C:\Users\maxim\source\repos\Network 3\Network 3\obj\Debug\Network 3_MarkupCompile.cache
+C:\Users\maxim\source\repos\Network 3\Network 3\obj\Debug\Network 3_MarkupCompile.lref
+C:\Users\maxim\source\repos\Network 3\Network 3\bin\Debug\Network 3.exe.config
+C:\Users\maxim\source\repos\Network 3\Network 3\bin\Debug\Network 3.exe
+C:\Users\maxim\source\repos\Network 3\Network 3\bin\Debug\Network 3.pdb
+C:\Users\maxim\source\repos\Network 3\Network 3\obj\Debug\MainWindow.baml
+C:\Users\maxim\source\repos\Network 3\Network 3\obj\Debug\Network 3.g.resources
+C:\Users\maxim\source\repos\Network 3\Network 3\obj\Debug\Network_3.Properties.Resources.resources
+C:\Users\maxim\source\repos\Network 3\Network 3\obj\Debug\Network 3.csproj.GenerateResource.cache
+C:\Users\maxim\source\repos\Network 3\Network 3\obj\Debug\Network 3.csproj.CoreCompileInputs.cache
+C:\Users\maxim\source\repos\Network 3\Network 3\obj\Debug\Network 3.exe
+C:\Users\maxim\source\repos\Network 3\Network 3\obj\Debug\Network 3.pdb

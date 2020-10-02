@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SchoolModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Grade">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Student" Relationship="Self.FK_Student_Grade" FromRole="Grade" ToRole="Student" />
+    <Property Name="Teacher_Id" Type="Int32" />
+    <NavigationProperty Name="Teacher" Relationship="SchoolModel.FK_Grade_Grade" FromRole="Grade" ToRole="Teacher" />
+  </EntityType>
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Surname" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="Name" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="Patronymic" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="Birthday" Type="DateTime" Precision="0" />
+    <Property Name="Grade_Id" Type="Int32" />
+    <NavigationProperty Name="Grade" Relationship="Self.FK_Student_Grade" FromRole="Student" ToRole="Grade" />
+  </EntityType>
+  <Association Name="FK_Student_Grade">
+    <End Role="Grade" Type="Self.Grade" Multiplicity="0..1" />
+    <End Role="Student" Type="Self.Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Grade">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="Grade_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SchoolEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Grade" EntityType="Self.Grade" />
+    <EntitySet Name="Student" EntityType="Self.Student" />
+    <AssociationSet Name="FK_Student_Grade" Association="Self.FK_Student_Grade">
+      <End Role="Grade" EntitySet="Grade" />
+      <End Role="Student" EntitySet="Student" />
+    </AssociationSet>
+    <EntitySet Name="Teacher" EntityType="SchoolModel.Teacher" />
+    <AssociationSet Name="FK_Grade_Grade" Association="SchoolModel.FK_Grade_Grade">
+      <End Role="Teacher" EntitySet="Teacher" />
+      <End Role="Grade" EntitySet="Grade" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Teacher">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Surname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Patronymic" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Grade" Relationship="SchoolModel.FK_Grade_Grade" FromRole="Teacher" ToRole="Grade" />
+  </EntityType>
+  <Association Name="FK_Grade_Grade">
+    <End Type="SchoolModel.Teacher" Role="Teacher" Multiplicity="0..1" />
+    <End Type="SchoolModel.Grade" Role="Grade" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Teacher">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Grade">
+        <PropertyRef Name="Teacher_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
